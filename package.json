@@ -1,0 +1,23 @@
+{
+  "name": "qa-engineer-assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --require-module ts-node/register --require features/**/*.ts --format json:reports/cucumber_report.json",
+    "report": "ts-node ./scripts/generate-report.ts",
+    "test-and-report": "npm run test && npm run report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "@types/chai": "^5.2.2",
+    "axios": "^1.11.0",
+    "chai": "^6.0.1",
+    "cucumber-html-reporter": "^7.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
