@@ -40,10 +40,10 @@ We send names like "meghana" or "billybnob" to the Agify API and check:
 * Does the API respond with the expected number of results (in batch mode)?
 
 ## Folder Structure Overview
-features/           → Test cases and steps
-support/            → API Client  
-scripts/            → Report generator
-reports/            → HTML report gets saved here
+* features/           → Test cases and steps
+* support/            → API Client  
+* scripts/            → Report generator
+* reports/            → HTML report gets saved here
 
 ## Sample Test Report
  [View Test Report](https://meghana1726.github.io/agify-api-test)
