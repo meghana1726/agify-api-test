@@ -46,6 +46,6 @@ scripts/            → Report generator
 reports/            → HTML report gets saved here
 
 ## Sample Test Report
- [View Test Report](https://meghana1726.github.io/agify-api-testing)
+ [View Test Report](https://meghana1726.github.io/agify-api-test)
 
 
